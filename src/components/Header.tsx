@@ -14,12 +14,14 @@ const Header: React.FC = () => {
               <span className="text-font">Wishlist</span>
               <span className="text-font">Order Tracking</span>
             </div>
+
             <div className="securityInfo">
               <p className="text-font">
                 <i className="fa-solid fa-shield-halved"></i> 100% Secure
                 delivery
               </p>
             </div>
+
             <div className="contactInfo">
               <p className="text-font">
                 Need help? Contact us: <span>98065542</span>
@@ -35,8 +37,9 @@ const Header: React.FC = () => {
                 <img src={logo} alt="" />
               </figure>
             </div>
+
             <div className="filterByCountry">
-              <select name="country">
+              <select name="country" className="text-font">
                 <option value="Nepal">Nepal</option>
                 <option value="Russia">Russia</option>
                 <option value="Pakistan">Pakistan</option>
@@ -47,7 +50,7 @@ const Header: React.FC = () => {
             </div>
           </div>
 
-          <div className="searchContainer">
+          <div className="searchContainer text-font">
             <input type="search" name="search" />
           </div>
 
@@ -55,7 +58,7 @@ const Header: React.FC = () => {
             <div className="userSection">
               <span className="user"><i className="fa-regular fa-user"></i></span>
             </div>
-            
+
             <div className="cartSection">
               <span className="cart"><i className="fa-solid fa-cart-shopping"></i></span>
             </div>

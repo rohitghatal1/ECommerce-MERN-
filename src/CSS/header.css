@@ -23,6 +23,10 @@
     gap: 20px;
 }
 
+.headerSection .basicInformation .singleUserNavigation span{
+    cursor: pointer;
+}
+
 .headerSection .logoUserCartSection{
     width: 90%;
     margin: auto;
@@ -43,6 +47,7 @@
 .headerSection .logoUserCartSection .logoAndCountry .logoContainer .logo{
     width: 140px;
     height: 30px;
+    cursor: pointer;
 }
 
 .headerSection .logoUserCartSection .logoAndCountry .logoContainer .logo img{
@@ -51,11 +56,13 @@
 }
 
 .headerSection .logoUserCartSection .logoAndCountry .filterByCountry select{
-    padding: 20px;
+    padding: 15px;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid var(--component-color);
+    cursor: pointer;
 }
 
 .headerSection .logoUserCartSection .searchContainer{
@@ -79,7 +86,7 @@
 }
 
 .headerSection .logoUserCartSection .userAndCart .userSection, .cartSection{
-    padding: 5px;
+    padding: 5px 10px;
     text-align: center;
     border-radius: 4px;
     border: 1px solid var(--component-color);
