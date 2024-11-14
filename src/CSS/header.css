@@ -22,3 +22,73 @@
     align-items: center;
     gap: 20px;
 }
+
+.headerSection .logoUserCartSection{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.headerSection .logoUserCartSection .logoAndCountry{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerSection .logoUserCartSection .logoAndCountry .logoContainer .logo{
+    width: 140px;
+    height: 30px;
+}
+
+.headerSection .logoUserCartSection .logoAndCountry .logoContainer .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.headerSection .logoUserCartSection .logoAndCountry .filterByCountry select{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--component-color);
+}
+
+.headerSection .logoUserCartSection .searchContainer{
+    width: 65%;
+}
+
+.headerSection .logoUserCartSection .searchContainer input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid var(--component-color);
+    background-color: var(--background-color);
+}
+
+.headerSection .logoUserCartSection .userAndCart{
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerSection .logoUserCartSection .userAndCart .userSection, .cartSection{
+    padding: 5px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid var(--component-color);
+}
+
+.headerSection .logoUserCartSection .userAndCart .userSection .user{
+    cursor: pointer;
+}
+
+.headerSection .logoUserCartSection .userAndCart .cartSection .cart{
+    cursor: pointer;
+}

@@ -27,7 +27,7 @@ const Header: React.FC = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="logoUserCartSection">
           <div className="logoAndCountry">
             <div className="logoContainer">
@@ -53,10 +53,11 @@ const Header: React.FC = () => {
 
           <div className="userAndCart">
             <div className="userSection">
-              <div className="user"><i className="fa-regular fa-user"></i></div>
+              <span className="user"><i className="fa-regular fa-user"></i></span>
             </div>
+            
             <div className="cartSection">
-              <div className="cart"><i className="fa-solid fa-cart-shopping"></i></div>
+              <span className="cart"><i className="fa-solid fa-cart-shopping"></i></span>
             </div>
           </div>
         </div>
