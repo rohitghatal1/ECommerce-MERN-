@@ -3,6 +3,10 @@
     color: var(--text-color);
 }
 
+.headerSection .basicInformationSection{
+    border-bottom: 1px solid var(--component-color);
+    padding: 10px;
+}
 .headerSection .basicInformation{
     display: flex;
     justify-content: space-between;
