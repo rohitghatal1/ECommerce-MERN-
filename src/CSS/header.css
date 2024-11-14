@@ -1,6 +1,6 @@
 .headerSection{
-    background-color: aliceblue;
-    color: black;
+    background-color: var(--primary-color);
+    color: var(--text-color);
 }
 
 .headerSection .basicInforation{
