@@ -1,0 +1,13 @@
+.headerSection{
+    background-color: aliceblue;
+    color: black;
+}
+
+.headerSection .basicInforation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
