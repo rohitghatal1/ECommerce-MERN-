@@ -3,11 +3,18 @@
     color: var(--text-color);
 }
 
-.headerSection .basicInforation{
+.headerSection .basicInformation{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 90%;
     margin: auto;
     padding: 10px;
+}
+
+.headerSection .basicInformation .singleUserNavigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
 }

@@ -5,20 +5,20 @@ const Header: React.FC = () => {
   return (
     <div>
       <section className="headerSection">
-        <div className="basicInforation">
+        <div className="basicInformation">
           <div className="singleUserNavigation">
-            <span>About Us</span>
-            <span>My account</span>
-            <span>Wishlist</span>
-            <span>Order Tracking</span>
+            <span className="text-font">About Us</span>
+            <span className="text-font">My account</span>
+            <span className="text-font">Wishlist</span>
+            <span className="text-font">Order Tracking</span>
           </div>
           <div className="securityInfo">
-            <p>
+            <p className="text-font">
               <i className="fa-solid fa-shield-halved"></i> 100% Secure delivery
             </p>
           </div>
           <div className="contactInfo">
-            <p>
+            <p className="text-font">
               Need help? Contact us: <span>98065542</span>
             </p>
           </div>
