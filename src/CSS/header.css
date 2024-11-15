@@ -8,6 +8,7 @@
     border-bottom: 1px solid var(--component-color);
     padding: 10px;
 }
+
 .headerSection .basicInformation{
     display: flex;
     justify-content: space-between;
@@ -68,6 +69,14 @@
 
 .headerSection .logoUserCartSection .searchContainer{
     width: 65%;
+    position: relative;
+}
+
+.headerSection .logoUserCartSection .searchContainer .magnifyGlass{
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    cursor: pointer;
 }
 
 .headerSection .logoUserCartSection .searchContainer input{

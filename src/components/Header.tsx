@@ -52,6 +52,7 @@ const Header: React.FC = () => {
 
           <div className="searchContainer text-font">
             <input type="search" name="search" />
+            <span className="magnifyGlass"><i className="fa-solid fa-magnifying-glass"></i></span>
           </div>
 
           <div className="userAndCart">
@@ -71,7 +72,7 @@ const Header: React.FC = () => {
 
         <div className="categoryAndNavbarSection">
           <div className="categorySection">
-            <button className="showCategoriesBtn">
+            <button className="showCategoriesBtn text-font">
               <i className="fa-solid fa-bars"></i> All Categories <i className="fa-solid fa-angle-down"></i>
             </button>
           </div>
