@@ -44,7 +44,7 @@ const Header: React.FC = () => {
                 <option value="Russia">Russia</option>
                 <option value="Pakistan">Pakistan</option>
                 <option value="India">India</option>
-                <option value="London">London</option>
+                <option value="UK">UK</option>
                 <option value="USA">USA</option>
               </select>
             </div>
