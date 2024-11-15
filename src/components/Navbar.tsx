@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
                             <NavLink to = "/" className="navLinkItem"><i className="fas fa-home"></i> Home <i className="fa-solid fa-angle-down"></i></NavLink>
                         </li>
                         <li className="navLink">
-                            <NavLink to = "/meatsSeafood" className="navLinkItem"><i className="fas fa-drumstick-bite"></i> Meats & Seafood</NavLink>
+                            <NavLink to = "/meat" className="navLinkItem"><i className="fas fa-drumstick-bite"></i> Meats & Seafood</NavLink>
                         </li>
                         <li className="navLink">
                             <NavLink to = "/bakery" className="navLinkItem"><i className="fas fa-cookie-bite"></i> Bakery</NavLink>
