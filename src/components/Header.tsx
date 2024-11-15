@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import "../CSS/header.css";
-import logo from "../assets/logos/freshcart.png"
+import logo from "../assets/logos/freshcart.png";
 
 const Header: React.FC = () => {
   return (
@@ -56,15 +56,29 @@ const Header: React.FC = () => {
 
           <div className="userAndCart">
             <div className="userSection">
-              <span className="user"><i className="fa-regular fa-user"></i></span>
+              <span className="user">
+                <i className="fa-regular fa-user"></i>
+              </span>
             </div>
 
             <div className="cartSection">
-              <span className="cart"><i className="fa-solid fa-cart-shopping"></i></span>
+              <span className="cart">
+                <i className="fa-solid fa-cart-shopping"></i>
+              </span>
             </div>
           </div>
         </div>
-        <Navbar />
+
+        <div className="categoryAndNavbarSection">
+          <div className="categorySection">
+            <button className="showCategoriesBtn">
+              <i className="fa-solid fa-bars"></i> All Categories
+            </button>
+          </div>
+          <div className="navbarSection">
+            <Navbar />
+          </div>
+        </div>
       </section>
     </div>
   );

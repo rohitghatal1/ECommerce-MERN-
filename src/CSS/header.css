@@ -99,3 +99,26 @@
 .headerSection .logoUserCartSection .userAndCart .cartSection .cart{
     cursor: pointer;
 }
+
+.headerSection .categoryAndNavbarSection{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.headerSection .categoryAndNavbarSection .categorySection .showCategoriesBtn{
+    background-color: var(--btn-color);
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.headerSection .categoryAndNavbarSection .categorySection .showCategoriesBtn i{
+    margin-right: 10px;
+}
