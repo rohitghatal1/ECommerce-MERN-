@@ -72,7 +72,7 @@ const Header: React.FC = () => {
         <div className="categoryAndNavbarSection">
           <div className="categorySection">
             <button className="showCategoriesBtn">
-              <i className="fa-solid fa-bars"></i> All Categories
+              <i className="fa-solid fa-bars"></i> All Categories <i className="fa-solid fa-angle-down"></i>
             </button>
           </div>
           <div className="navbarSection">
