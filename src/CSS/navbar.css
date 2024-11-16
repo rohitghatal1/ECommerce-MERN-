@@ -9,6 +9,8 @@
 .navbar .navbarContainer .navItems .navLink{
     cursor: pointer;
     font-size: 16px;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .navbar .navbarContainer .navItems .navLink .navLinkItem{
@@ -20,4 +22,12 @@
 .navbar .navbarContainer .navItems .navLink .navLinkItem i{
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.navbar .navbarContainer .navItems .navLink.activeLink {
+    background-color: #e0f7fa;
+}
+
+.navbar .navbarContainer .navItems .navLink.navLink.activeLink .navLinkItem{
+    color: forestgreen !important;
 }
