@@ -41,18 +41,34 @@ const Header: React.FC = () => {
             <div className="filterByCountry">
               <select name="country" className="text-font">
                 <option value="Nepal">Nepal</option>
-                <option value="Russia">Russia</option>
-                <option value="Pakistan">Pakistan</option>
-                <option value="India">India</option>
-                <option value="UK">UK</option>
                 <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="India">India</option>
+                <option value="Canada">Canada</option>
+                <option value="Australia">Australia</option>
+                <option value="Germany">Germany</option>
+                <option value="France">France</option>
+                <option value="Italy">Italy</option>
+                <option value="Japan">Japan</option>
+                <option value="China">China</option>
+                <option value="South Korea">South Korea</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Spain">Spain</option>
+                <option value="Netherlands">Netherlands</option>
+                <option value="Sweden">Sweden</option>
+                <option value="Switzerland">Switzerland</option>
+                <option value="Singapore">Singapore</option>
+                <option value="South Africa">South Africa</option>
               </select>
             </div>
           </div>
 
           <div className="searchContainer text-font">
             <input type="search" name="search" />
-            <span className="magnifyGlass"><i className="fa-solid fa-magnifying-glass"></i></span>
+            <span className="magnifyGlass">
+              <i className="fa-solid fa-magnifying-glass"></i>
+            </span>
           </div>
 
           <div className="userAndCart">
@@ -73,7 +89,8 @@ const Header: React.FC = () => {
         <div className="categoryAndNavbarSection">
           <div className="categorySection">
             <button className="showCategoriesBtn text-font">
-              <i className="fa-solid fa-bars"></i> All Categories <i className="fa-solid fa-angle-down"></i>
+              <i className="fa-solid fa-bars"></i> All Categories{" "}
+              <i className="fa-solid fa-angle-down"></i>
             </button>
           </div>
           <div className="navbarSection">
