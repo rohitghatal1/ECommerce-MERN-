@@ -3,6 +3,10 @@ import "../CSS/header.css";
 import logo from "../assets/logos/freshcart.png";
 
 const Header: React.FC = () => {
+
+  const showAllCategoies = () => {
+      
+  }
   return (
     <div>
       <section className="headerSection">
@@ -88,7 +92,7 @@ const Header: React.FC = () => {
 
         <div className="categoryAndNavbarSection">
           <div className="categorySection">
-            <button className="showCategoriesBtn text-font">
+            <button className="showCategoriesBtn text-font" onClick={showAllCategoies}>
               <i className="fa-solid fa-bars"></i> All Categories{" "}
               <i className="fa-solid fa-angle-down"></i>
             </button>
